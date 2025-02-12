@@ -208,7 +208,7 @@ h1{
 }
 
 h2{
-    border-bottom: 6px double #0c0;
+    border-bottom: 6px double gold;
     width: 120px;
     margin: 20px auto;
     font-size: 30px;
@@ -407,7 +407,7 @@ img {
     height: 650px;
     margin:  auto;
     position: absolute;
-    border-bottom: 3px solid #c00;
+    border-bottom: 3px solid gold;
 }
 
   #stage{
@@ -620,6 +620,11 @@ img {
         margin-bottom: 250px;
     }
     
+    #hours img{
+        width: 50px;
+        height: 50px;
+    }
+    
     #reservations{
         margin-top: 25px;
         max-width: 50%;
@@ -630,6 +635,11 @@ img {
         margin-bottom: 30px;
         max-width: 50%;
         margin: auto;
+    }
+    
+    #phone{
+        width: 70px;
+        margin: 10px 0 -35px;
     }
     
     #sociallink img{
@@ -802,14 +812,16 @@ img {
     #form {
         background: url(ShroomArch.png);
         background-size: 100% 100%;
-        padding: 20px 0px 85px;
+        padding: 100px 0px 125px;
         text-align: center;
         width: 100%;
         margin-bottom: 50px;
     }
     
     #contactus{
-        margin: 50px auto 0;
+        width: 200px;
+        float: left;
+        margin: 70px 32% 0;
     }
     
     
@@ -1184,6 +1196,11 @@ img {
         margin: 15px 0;
     }
     
+    #phone{
+        width: 50px;
+        margin: 0px 0 -15px;
+    }
+    
     #location h2{
         margin: 10px auto;
     }
@@ -1199,6 +1216,7 @@ img {
     }
     
     #number{
+        color: gold;
         font-size: 22px;
         padding-top: -5px;
         width: 250px; 
@@ -1447,6 +1465,11 @@ img {
         margin-bottom: 30px;
     }
     
+    #reservations img{
+        width: 65px;
+        margin: -10px;
+    }
+    
     #location img{
         width: 50px;
     }
@@ -1629,7 +1652,7 @@ img {
         background-size: 100% 100%;
         padding:20px 0px 40px;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 150px;
     }
 
     footer{
