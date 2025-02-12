@@ -504,7 +504,7 @@ img {
 }
 
 #menumade{
-    filter:drop-shadow(0px 0px 2px white);
+    filter:drop-shadow(0px 0px 2px black);
 }
 
 #form{
@@ -515,6 +515,11 @@ img {
     width: 80%;
     max-width: 1400px;
     margin: auto;
+}
+
+#quote h2{
+    border-top: 5px double gold;
+    padding: 10px 0;
 }
 
 
@@ -821,7 +826,7 @@ img {
     #contactus{
         width: 200px;
         float: left;
-        margin: 70px 32% 0;
+        margin: 70px 35% 0;
     }
     
     
@@ -958,6 +963,7 @@ img {
         width: 70%;
         margin: 20px auto;
         text-align: center;
+        border-bottom: 5px double gold;
     }
     
     #rotate{
