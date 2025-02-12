@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta property="og:title" content="Batt Bros" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image" content="https://i.ibb.co/n0Td0XT/Sphere-Logo.png" />
+    <meta property="og:image:secure_url" content="https://i.ibb.co/n0Td0XT/Sphere-Logo.png" />
+    <meta name="keywords" content="Joy Hing, Vietnamese, Chinatown, Restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BUDDHA LOUNGE - Gallery</title>
+    <meta name="description" content="Traditional Vietnamese Dining in SF FiDi/Chinatown">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="SphereLogoRound.png">
+    <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Fugaz+One|Righteous|Orbitron|Kanit|Quintessential" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="animated-example" class="animated fadeOut">
+
+    <script>
+        window.addEventListener("beforeunload", function() {
+            document.body.classList.add("animate-out");
+        });
+    </script>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
+        <a href="index.html">Home</a>
+        <a style="text-decoration: underline" href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div data-aos-delay="500" class="burger" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom"  onclick="openNav()"> <span id="top"></span> <span id="middle"></span> <span id="bottom"></span></div> 
+        </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "175px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <nav data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a style="border-bottom: 7px double gold;" href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="logo">
+
+        <a href="index.html"> <img data-aos="flip-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="logomt" src="BuddhaGreen.png"></a>
+    </div>
+    
+    <div data-aos="flip-up" data-aos-delay="1500"  data-aos-duration="1000" data-aos-anchor-placement="top-bottom" id="quote">
+         
+        <h2>"A jug fills drop by drop."<br>
+
+            <i>~Buddha~</i>
+
+        </h2>
+    
+    </div><br>
+    
+    <div class='gallery'>
+        
+        <img src="BuddhaSmile.JPG">
+        <img src="Lucky2.jpg">
+        <img src="Dragon.JPG">
+        <img src="MaiThai.jpg">
+        <img src="FrontLong.jpg">
+        <img src="BuddhaBeerDouble.jpg">
+        <img src="BuddhaSignNight.jpg">
+        <img src="BuddhaLogo2.jpg">
+        <img src="BuddhaSignLantern.jpg">
+        <img src="BuddhaBeer2.jpg">
+        <img src="BuddhaBeer.jpg">
+        <img src="BuddhaBeerDouble.jpg">
+        <img src="FrontDoor.jpg">
+        <img src="Mural.jpg">
+        <img src="FrontLong.jpg">
+        <img src="Collage.jpg">
+        
+    </div>
+
+    
+     <div id="number">
+        
+            <a style="text-decoration: none;cursor:pointer" href="tel:14153621792"><h3>(415) 362-1792</h3></a><br><br>
+            
+        </div>
+   
+
+     <footer>
+
+        <p>
+            <a id="sociallink" href="https://www.facebook.com/profile.php?id=61572642631857"> <img src="FaceBook.png"></a>
+            
+            &copy; Joy Hing BBQ Noodle House
+            
+            <a id="sociallink" href="https://www.instagram.com/joyhingbbq/"><img src="Instagram.png"></a><br>
+            
+            <a href="https://menu-made.com/"><img id="menumade" src="MENU.png"></a>
+        
+        </p>
+
+    </footer>
+    
+    <script>
+            document.querySelector("#files").onchange = function() {
+            const fileName = this.files[0]?.name;
+            const label = document.querySelector("label[for=files]");
+            label.innerText = fileName ?? "Browse Files";
+            };
+        
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
