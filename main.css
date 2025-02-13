@@ -528,6 +528,22 @@ img {
     padding: 10px 0;
 }
 
+#preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 25%;
+    font-family: 'federant' ;
+    background: url(YinYangGiff.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+
 
 /*=======================================*/
 /*=======================================*/
