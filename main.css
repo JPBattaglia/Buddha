@@ -305,7 +305,7 @@ p{
 }
 
 .sidenav a {
-    margin: 75px 10px;
+    margin: 105px 10px;
     font-size: 28px;
     color: beige;
     display: block;
@@ -322,7 +322,7 @@ p{
 }
 
 .sidenav a:nth-child(2){
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .sidenav a:hover {
@@ -454,15 +454,15 @@ img {
 
 #location img:hover{
         filter: drop-shadow(0px 0px 3px red);
-    }
+}
 
 #number:hover{
         text-shadow: 1px 1px 1px red; 
-    }
+}
 
 #number{
     color: white;
-    width: 150px;
+    width: 200px;
     margin: auto;
     text-shadow:
        1px 1px 0 black;
@@ -538,7 +538,7 @@ img {
     background: url(Yin_yang.gif) no-repeat center center;
     background-size: 50%;
     height: 65%;
-    width: 100%;
+    width: 60%;
     position: fixed;
     z-index: 9999999999999999;
     top: 0;
@@ -552,6 +552,22 @@ img {
     nav, #calltoaction, #rotate, #happy, #info h2{
         display: none;
     }
+    
+    #preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 45%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 40%;
+    height: 65%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
     
     .sidenav .closebtn {
         margin: 5px 40px 28px 22px;
@@ -637,6 +653,11 @@ img {
         background-size: 100% 100%;
     }
     
+    #info h3{
+        font-family: 'Passero One';
+        font-size: 28px;
+    }
+    
     #clock{
         width: 60px;
         height: 60px;
@@ -667,6 +688,10 @@ img {
         margin-bottom: 30px;
         max-width: 50%;
         margin: auto;
+    }
+    
+    #reservations h3{
+        font-family: 'Quintessential';
     }
     
     #phone{
@@ -933,6 +958,22 @@ img {
         display: none;
     }
     
+    #preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 65%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 40%;
+    height: 65%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+    
     .overlay{
         background-size: 50%;
     }
@@ -968,6 +1009,10 @@ img {
     
     .sidenav a{
         margin-left: 20px;
+    }
+    
+    .sidenav .closebtn{
+        margin: 23px 37px 28px 22px;
     }
     
     .gallery{
@@ -1108,6 +1153,11 @@ img {
        
     }
     
+    #info h3{
+        font-family: 'Passero One';
+        font-size: 22px;
+    }
+    
     
     #intro h1{
         font-size: 25px;
@@ -1229,6 +1279,7 @@ img {
     
     #reservations h3{
         margin: 15px 0;
+        font-family: 'Quintessential';
     }
     
     #phone{
@@ -1257,7 +1308,6 @@ img {
         padding-top: -5px;
         width: 250px; 
         text-shadow: 1px 2px 1px red;
-        
     }
     
     select{
@@ -1435,6 +1485,10 @@ img {
         display: none;
     }
     
+    #preloader{
+        margin: 0 20%; 
+    }
+    
     .overlay{
         background-size: 33%;
     }
@@ -1482,6 +1536,11 @@ img {
         margin: auto;
     }
     
+    #info h3{
+        font-family: 'Joti One';
+        font-size: 26px;
+    }
+    
     #clock{
         width: 50px;
         height: 50px;
@@ -1507,6 +1566,11 @@ img {
         margin-bottom: 30px;
     }
     
+    #reservations h3{
+        font-family: 'Quintessential';
+        font-size: 32px;
+    }
+    
     #reservations img{
         width: 60px;
         margin: -10px;
@@ -1524,7 +1588,7 @@ img {
     }
     
     #location h3{
-        margin: 5px;   
+        margin: 5px; 
     }
     
     #number{
