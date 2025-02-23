@@ -667,7 +667,7 @@ img {
     
     #hours{
         margin-top: 50px;
-        max-width: 50%;
+        max-width: 60%;
         margin: auto;
         margin-bottom: 50px;
     }
@@ -839,6 +839,8 @@ img {
         -o-transition: background-color 1s ease-out;
         transition: background-color 1s ease-out;
         margin-bottom: 50px;
+        margin-top: 20px;
+        
     }
 
     /* When moving the mouse over the submit button, add a blue color */
@@ -855,7 +857,7 @@ img {
     }
     
     #fname{
-        margin-top: 50px;
+        margin-top: 200px;
     }
 
     /* Add a background color and some padding around the form */
@@ -865,6 +867,7 @@ img {
         background-repeat: no-repeat;
         max-width: 95%;
         margin: auto;
+        margin-bottom: 80px;
     }
 
     #form {
@@ -873,13 +876,13 @@ img {
         padding: 100px 0px 125px;
         text-align: center;
         width: 100%;
-        margin-bottom: 50px;
     }
     
     #contactus{
-        width: 200px;
+        width: 250px;
         float: left;
-        margin: 70px 35% 0;
+        margin: 140px 31% 0;
+        font-size: 52px;
     }
     
     
@@ -1149,7 +1152,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px auto;
+        margin: -15px auto;
        
     }
     
@@ -1546,13 +1549,14 @@ img {
         height: 50px;
         border: .5px solid #fff;
         border-radius: 50px;
+        margin-bottom: -20px;
     }
     
     #hours{
         flex: 3;
         text-align: center;
         max-width: 250px;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     
     #reservations{
@@ -1742,7 +1746,7 @@ img {
     }
     
     #fname{
-        margin-top: 160px;
+        margin-top: 0px;
     }
 
     /* Add a background color and some padding around the form */
