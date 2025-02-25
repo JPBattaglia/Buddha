@@ -248,6 +248,11 @@ p{
        .5px 1px 0 white;
 }
 
+i{
+    font-family: 'Jacques Francois Shadow';
+    font-size: 26px;
+}
+
 .burger{
     transition: 1.5s;
     float: right;
@@ -625,6 +630,10 @@ img {
         font-family: serif;
     }
     
+    i{
+        font-size: 22px;
+    }
+    
     #logo{
         margin-top: 20px;
         font-size: 12px;
@@ -676,6 +685,11 @@ img {
         width: 50px;
         height: 50px;
         margin-bottom: -20px;
+    }
+    
+    #hours i{
+        font-size: 20px;
+        border-bottom: 4px double orangered;
     }
     
     #reservations{
@@ -1247,6 +1261,11 @@ img {
         text-align: center;
     }
     
+    i{
+        font-family: 'Jacques Francois Shadow';
+        font-size: 20px;
+    }
+    
     #sociallink img{
         width: 50px;
         margin: 0 15px -20px;
@@ -1270,6 +1289,11 @@ img {
     
     #hours h3{
         margin-top: 0px;
+    }
+    
+    #hours i{
+        font-size: 18px;
+        text-decoration: underline;
     }
     
     #location img{
@@ -1557,6 +1581,15 @@ img {
         text-align: center;
         max-width: 250px;
         margin: 0px auto;
+    }
+    
+    #hours h3{
+        font-size: 24px;
+    }
+    
+    #hours i{
+        font-size: 20px;
+        border-bottom: 4px double orangered;
     }
     
     #reservations{
