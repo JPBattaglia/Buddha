@@ -1592,6 +1592,11 @@ img {
         border-bottom: 4px double orangered;
     }
     
+    #hours img{
+        width: 45px;
+        height: 45px;
+    }
+    
     #reservations{
         flex: 2;
         text-align: center;
