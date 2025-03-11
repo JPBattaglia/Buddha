@@ -34,8 +34,8 @@ html{
 }
 
 .animated {
-        background-color: #040;
-        background-position: left top;
+        background: url(Screenshot%202025-03-02%20at%208.56.37%E2%80%AFPM.png) bottom;
+        background-size: 100% 45%;
         margin-bottom:30px;
         -webkit-animation-duration: 3s;animation-duration: 3s;
         -webkit-animation-fill-mode: both;animation-fill-mode: both;
@@ -466,7 +466,7 @@ img {
 }
 
 #number{
-    color: white;
+    color: yellow;
     width: 200px;
     margin: auto;
     text-shadow:
@@ -556,6 +556,10 @@ img {
 @media (max-width: 849px) and (min-width: 601px){
     nav, #calltoaction, #rotate, #happy, #info h2{
         display: none;
+    }
+    
+    .animated{
+        background: #040;
     }
     
     #preloader{
@@ -973,6 +977,10 @@ img {
 @media (max-width: 600px){
         nav, #happy, #reservation, #info h2{
         display: none;
+    }
+    
+    .animated{
+        background: #040;
     }
     
     #preloader{
